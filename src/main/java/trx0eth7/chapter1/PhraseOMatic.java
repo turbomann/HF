@@ -19,7 +19,7 @@ public class PhraseOMatic {
 
     public static void main(String... args) {
         PhraseOMatic phraseOMatic = new PhraseOMatic();
-        String phrase = phraseOMatic.phrase(wordsOne, wordsThree, wordsTwo);
+        String phrase = phraseOMatic.phrase(wordsOne, wordsTwo, wordsThree);
         System.out.printf("Все, что Вам нужно, - это %s", phrase);
     }
 
