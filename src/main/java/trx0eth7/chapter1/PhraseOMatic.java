@@ -7,10 +7,10 @@ import java.util.stream.Collectors;
  * This program generates pieces of advice.
  * You can set n-number of arrays, for example wordsOne, wordsTwo, wordsThree.
  * Sources:
- *
  * @see <a href="https://docs.oracle.com/javase/8/docs/api/java/util/StringJoiner.html">StringJoiner</a>
  * @see <a href="https://www.mkyong.com/java8/java-8-stringjoiner-example/">Stringjoiner example</a>
  * @see <a href="https://habrahabr.ru/company/luxoft/blog/270383/">Java Stream API</a>
+ * @see <a href="https://docs.oracle.com/javase/8/docs/api/java/util/stream/Collectors.html">Java Collectors</a>
  */
 public class PhraseOMatic {
     private static String[] wordsOne = {"побрить", "помыть", "съесть", "выпить", "увидеть", "посетить", "приголубить", "отругать", "презирать", "обозвать"};
