@@ -14,14 +14,14 @@ public class BeerSong {
 
         while (beerNumb > 0){
             word = beerSong.getRightEnding(beerNumb);
-            System.out.printf("%d %s пива на стене\n", beerNumb, word);
-            System.out.printf("%d %s пива.\n", beerNumb, word);
+            System.out.printf("%d %s пива на стене%n", beerNumb, word);
+            System.out.printf("%d %s пива.%n", beerNumb, word);
             System.out.println("Возьми одну.");
             System.out.println("Пусти по кругу.");
             --beerNumb;
             word = beerSong.getRightEnding(beerNumb);
             if(beerNumb > 0){
-                System.out.printf("%d %s пива на стене\n", beerNumb, word);
+                System.out.printf("%d %s пива на стене%n", beerNumb, word);
             } else {
                 System.out.println("Нет бутылок пива на стене");
             }
