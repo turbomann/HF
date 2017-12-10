@@ -1,27 +1,28 @@
 package trx0eth7.chapter2.programm;
 
 import trx0eth7.chapter2.programm.model.*;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import static trx0eth7.chapter2.programm.builder.BuilderShape.createShape;
 
 public class Main {
     public static void main(String... args) {
         Main main = new Main();
-        List<Shape> shapes = main.init();
-        for(Shape shape : shapes){
+        List<IShape> shapes = main.init();
+        for(IShape shape : shapes){
             shape.rotate();
             shape.playSound();
         }
     }
 
-    List<Shape> init(){
+    private List<IShape> init(){
         //User set shapes
-        List<Shape> shapes = new ArrayList<>();
+        List<IShape> shapes = new ArrayList<>();
 
-        shapes.add(BuilderShape.createShape("circle"));
-        shapes.add(BuilderShape.createShape("square"));
-        shapes.add(BuilderShape.createShape("triangle"));
+        shapes.add(createShape("circle"));
+        shapes.add(createShape("square"));
+        shapes.add(createShape("triangle"));
 
         return shapes;
     }
