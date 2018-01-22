@@ -19,7 +19,7 @@ public class SimpleDotCom{
         }
 
         if (numOfHits == locaionsCells.length) {
-            result = " PoTOPIL";
+            result = "PoTOPIL";
         }
 
         System.out.println(result);
