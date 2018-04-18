@@ -3,6 +3,12 @@ import java.io.*;
 public class GameHelper {
 public String getUserGInput(String promt){
     String inputLine=null;
+
+    public int placeDotCom(){
+
+            }
+
+
     System.out.print(promt + " ");
     try{
         BufferedReader is = new BufferedReader(new InputStreamReader(System.in));
