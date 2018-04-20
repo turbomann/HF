@@ -3,25 +3,28 @@ package turbomann.Chapter_5;
 import java.util.ArrayList;
 
 public class DotCom{
-    String name = "";
-    private ArrayList<String> locationCells;
-    //int [] locaionsCells;
-    //int numOfHits = 0;
 
+    String name ;
+    private ArrayList<String> locationCells;
 
 public void setLocationCells(ArrayList<String> loc) {
     locationCells = loc;
 }
 
+    public void setName(String n) {
+        name = n;
+    }
+
 public String checkYourself(String userInput){
     String result = "Miss";
-
     int index = locationCells.indexOf(userInput);
     if (index >= 0) {
         locationCells.remove(index);
 
         if (locationCells.isEmpty()){
-            result = "PoTOPIL";}else{
+            result = "POTOPIL";
+            System.out.println("Oh you kill " + name + " :( ");
+        }else{
             result = "POPAL";
         }
         }

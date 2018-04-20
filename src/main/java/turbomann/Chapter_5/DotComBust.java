@@ -24,7 +24,7 @@ public class DotComBust {
         dotComList.add(site3);
 
         //краткие иструкции для пользователя
-        System.out.println("Create 3 site " + site1.name + " " + site2.name + " " + site3.name);
+        System.out.println("Create 3 sites " + site1.name + " " + site2.name + " " + site3.name);
         System.out.println("You should shoot them all");
 
 
