@@ -1,3 +1,4 @@
+/*
 package turbomann.Chapter_5;
 
 public class SimpleDotComGame {
@@ -24,3 +25,4 @@ public class SimpleDotComGame {
         }
     }
 }
+*/

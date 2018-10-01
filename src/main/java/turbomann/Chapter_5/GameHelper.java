@@ -1,4 +1,4 @@
-package turbomann.Chapter_5;
+/*package turbomann.Chapter_5;
 import java.io.*;
 import java.util.*;
 public class GameHelper {
@@ -16,7 +16,7 @@ public String getUserGInput(String promt) {
         BufferedReader is = new BufferedReader(new InputStreamReader(System.in));
         inputLine = is.readLine();
         if (inputLine.length() == 0) return null;
-    } catch (IOException) {
+    } catch (IOException e) {
         System.out.println("IOException: " + e);
     }
     return inputLine.toLowerCase();
@@ -34,7 +34,7 @@ public ArrayList<String> placeDotCom (int comSize) {
     comCount++;
     int incr = 1;
     if ((comCount % 2) == 1) {
-        incr = gridLenght
+        incr = gridLenght;
     }
 
     while (!success & attempts++ < 200) {
@@ -70,6 +70,7 @@ public ArrayList<String> placeDotCom (int comSize) {
 
     }
 }
+*/
 
 //
 //    public int placeDotCom(){
