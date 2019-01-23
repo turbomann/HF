@@ -1,9 +1,12 @@
+package Groovy;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+
 class RegexpTest {
-    private final String REGEXP_DATE = "\"([^\"]+)\"";
-    private final String MACRO_NAME_PATTERN = "<ac:structured-macro ac:name=";
+     final String REGEXP_DATE = "\"([^\"]+)\"";
+     final String MACRO_NAME_PATTERN = "<ac:structured-macro ac:name=";
 
     public void regularDate() {
         String page = getHtmlPage();
@@ -23,6 +26,8 @@ class RegexpTest {
                 "]]></ac:plain-text-body></ac:structured-macro><p class=\"auto-cursor-target\"><br /></p><p><br /></p><p><ac:image ac:height=\"250\"><ri:attachment ri:filename=\"макет создания страниц.png\" /></ac:image></p><ac:structured-macro ac:name=\"page-update-notifier-macro\" ac:schema-version=\"1\" ac:macro-id=\"a4eff2ca-f21b-40f2-a07d-52a14c2ad407\"><ac:plain-text-body><![CDATA[kseniia.labyskina@netcracker.com]]></ac:plain-text-body></ac:structured-macro><p class=\"auto-cursor-target\"><br /></p>";
     }
 }
+
+
 
 
 //    string str = "set vrouter \"Trust-Gi\"";
