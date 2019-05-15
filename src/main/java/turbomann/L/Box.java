@@ -65,10 +65,7 @@ public static void main(String[]args){
 
     Cat Boris = new Cat (8);
 
-    System.out.println(Boris.birthday);
-    System.out.println(Boris.age);
-    
-
+    System.out.println("birtday cat Boris - "+ Boris.birthday + "Age of cat Boris - "+ Boris.age);
 
         }
         }
