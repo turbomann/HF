@@ -1,8 +1,6 @@
-package src.main.java.GShildt.Chapter_8;
+package src.main.java.GShildt.Chapter_8.qpack;
 
-import src.main.java.GShildt.Chapter_8.ICharQ;
-
-class FixedQueue implements ICharQ {
+public class FixedQueue implements ICharQ {
     private char[] q;
     private int putloc, getloc;
 

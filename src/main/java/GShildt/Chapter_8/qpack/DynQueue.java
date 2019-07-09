@@ -1,4 +1,4 @@
-package src.main.java.GShildt.Chapter_8;
+package src.main.java.GShildt.Chapter_8.qpack;
 
 public class DynQueue implements ICharQ {
 

@@ -1,5 +1,10 @@
 package src.main.java.GShildt.Chapter_8;
 
+import src.main.java.GShildt.Chapter_8.qpack.CirculerQueue;
+import src.main.java.GShildt.Chapter_8.qpack.DynQueue;
+import src.main.java.GShildt.Chapter_8.qpack.FixedQueue;
+import src.main.java.GShildt.Chapter_8.qpack.ICharQ;
+
 public class IQDemo {
     public static void main(String[] args) {
         FixedQueue fq = new FixedQueue(10);

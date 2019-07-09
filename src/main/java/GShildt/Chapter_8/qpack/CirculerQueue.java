@@ -1,11 +1,11 @@
-package src.main.java.GShildt.Chapter_8;
+package src.main.java.GShildt.Chapter_8.qpack;
 
 public class CirculerQueue implements ICharQ {
     private char q[];
     private int putloc, getloc;
 
 
-    CirculerQueue(int size) {
+    public CirculerQueue(int size) {
         q = new char[size + 1];
         putloc = getloc = 0;
     }
