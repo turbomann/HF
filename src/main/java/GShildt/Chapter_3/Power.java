@@ -1,4 +1,4 @@
-package Shildt.Chapter_3;
+package GShildt.Chapter_3;
 
 public class Power {
     public static void main(String[] args) {

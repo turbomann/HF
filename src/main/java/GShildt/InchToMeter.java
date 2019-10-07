@@ -1,4 +1,7 @@
 package GShildt;
+import LJV.*;
+
+import static javafx.scene.input.KeyCode.L;
 
 public class InchToMeter {
     public static void main(String[] args) {
@@ -16,6 +19,7 @@ public class InchToMeter {
                 System.out.println();
             }
         }
+
 
     }
 }
