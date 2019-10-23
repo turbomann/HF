@@ -2,6 +2,7 @@ package GShildt.Chapter_11;
 
 public class MyTheard implements Runnable {
     String thrdName;
+    Double a = Double.NEGATIVE_INFINITY;
 
     MyTheard(String name) {
         thrdName = name;
